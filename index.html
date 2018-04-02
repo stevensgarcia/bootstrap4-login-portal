@@ -7,18 +7,48 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="./css/bootstrap.css.map">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
 
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body class="signin-body">
 
-    <h1>Login Portal</h1>
+    <div class="container signin-container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-sm-12 col-md-8">
 
+          <div class="card signin-card">
+            <div class="card-body">
+              <img src="./assets/DevslopesLogo.png" class="img-fluid
+              signin-image">
+              <form class="signin-form">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="emailInput"
+                  placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="passwordInput"
+                  placeholder="Password">
+                </div>
+                <button type="button" class="btn btn-primary btn-block
+                  btn-signin btn-lg">Signin</button>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1"> Remember
+                  Me <a href="#" class0"btn-link">Need help?</a></label>
+                </div>
+              </form>
+            </div>
+          </div><!-- end .card -->
 
+          <a href="#" class="text-center signin-create-account">Create new account</a>
 
-
+        </div>
+        <div class="col"></div>
+      </div><!-- end .row -->
+    </div><!-- end .container -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
